@@ -6,14 +6,14 @@ import {FaTwitterSquare} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>PABLO</a>
+      <a href="#" className='footer__logo'></a>
       <ul className='permalinks'>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#about">Sobre mi</a></li>
-      <li><a href="#experience">Experiencia</a></li>
-      <li><a href="#services">Servicios</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contacto</a></li>
+      <li><b><a href="#">Inicio</a></b></li>
+      <li><b><a href="#about">Sobre mi</a></b></li>
+      <li><b><a href="#experience">Conocimientos</a></b></li>
+      <li><b><a href="#services">Habilidades</a></b></li>
+      <li><b><a href="#portfolio">Portfolio</a></b></li>
+      <li><b><a href="#contact">Contacto</a></b></li>
       </ul>
 
       <div className="footer__socials">
@@ -23,9 +23,12 @@ const Footer = () => {
       </div>
 
        <div className="footer__copyright">
-         <small>&copy; JPablo Portfolio</small>
+         <small><b>Copyright &copy; JPablo personal portfolio</b></small>
+         
        </div>
+       
     </footer>
+    
   )
 }
 

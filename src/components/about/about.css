@@ -4,19 +4,34 @@
     gap: 15%;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+
 .about__me{
-width: 100%;
-aspect-ratio: 1/1;
-border-radius: 2rem;
-background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
-display: grid;
-place-items: center;
+    width: 110%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
 }
 
 .about__me-image{
     border-radius: 2rem;
     overflow: hidden;
+    width: 85%;
     transform: rotate(10deg);
+    border:solid 2px;
+    
 }
 
 .about__me-image:hover{
@@ -59,7 +74,7 @@ place-items: center;
 
 .about__content p{
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 /*  ---------------TABLETS----------------- */

@@ -4,39 +4,40 @@ import {AiOutlineCheck} from "react-icons/ai"
 const Services =() => {
   return (
     <section id ='services'>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>que ofrezco</h5>
+      <h2>SKILLS</h2>
 
      <div className= "container services__container">
        <article className="service">
          <div className="service__head">
-           <h3> UI/UX DESING</h3>
+           <b><h3> HABILIDADES</h3></b>
+           <small> Tecnológicas</small>
            </div>
 
         <ul className="service__list">
          <li>
          <AiOutlineCheck className='service__list-icon'/>
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Programación orientada a objetos</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Consultas avanzas a Bases de datos</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Sistema de control de versiones GIT</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Cloud Computing (Google)</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Java Spring Boot</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Implementación de API's REST</p>
          </li>
          </ul>
        </article>
@@ -44,70 +45,36 @@ const Services =() => {
 
                 <article className="service">
          <div className="service__head">
-           <h3> WEB DEVELOPEMENT</h3>
+           <h3> HABILIDADES</h3>
+           <small>Personales</small>
            </div>
            <ul className="service__list">
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Carnet de conducir y vehículo propio</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Español (Nativo) - Inglés (Alto)</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Trabajador en equipo</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Resolutivo</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
+         <p>Autodidacta</p>
          </li>
          <li>
          <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
-         </li>
+         <p>Apasionado por la tecnología</p>
+          </li>
          </ul>
        </article>
-                  {/*WEB DEVELOPEENT*/}
-
-
-                  <article className="service">
-         <div className="service__head">
-           <h3> CREATE CONTENT</h3>
-           </div>
-           <ul className="service__list">
-         <li>
-         <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
-         </li>
-         <li>
-         <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
-         </li>
-         <li>
-         <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
-         </li>
-         <li>
-         <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
-         </li>
-         <li>
-         <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
-         </li>
-         <li>
-         <AiOutlineCheck className='service__list-icon' />
-         <p>Lorem ipsum dolor sit ame</p>
-         </li>
-         </ul>
-       </article>
-                  {/*END OF cc*/}
        </div>
     </section>
 

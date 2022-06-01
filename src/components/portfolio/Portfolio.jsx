@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/Logo_FondoBlanco.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -11,7 +11,7 @@ const data =[
   {
     id:1,
     image: IMG1,
-    title: "Crypto Currency DashBoard & Financial Visualization",
+    title: "Aplicación movil Compra & Venta",
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/18325767-NFT-Marketplace-Landing-Page'
   },
@@ -68,8 +68,8 @@ const Portfolio = () => {
           </div>
           <h3>{title}</h3>
           <div className="portfolio__item-cta">
-          <a href={github} className='btn' target='_blank'>Github</a>
-          <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href={github} className='btn' target='_blank'><b>Github</b></a>
+          <a href={demo} className='btn btn-primary' target='_blank'><b>Live Demo</b></a>
           </div>
         </article>
         )

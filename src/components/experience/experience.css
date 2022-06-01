@@ -9,6 +9,7 @@
     padding: 2.4rem 5rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    border: solid;
 }
 
 .experience__container > div:hover {

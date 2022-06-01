@@ -1,6 +1,6 @@
 .services__container{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 3rem;
 }
 
@@ -22,11 +22,20 @@ background: var(--color-primary);
 padding: 2rem;
 border-radius: 0 0 2rem 2rem;
 box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
+text-align: center;
 }
 .service__head h3{
     color:var(--color-bg);
-    font-size: 1rem;
+    font-size: 25px;
     text-align: center;
+    font-weight: bold;
+
+}
+.service__head small{
+    color:var(--color-white);
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .service__list{

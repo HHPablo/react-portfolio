@@ -1,7 +1,6 @@
 import React from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
-import {BiMessageRoundedDetail} from 'react-icons/bi'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 import {useRef} from 'react';
 import emailjs from 'emailjs-com'
@@ -35,13 +34,6 @@ const Contact = () => {
         </article>
 
         <article className="contact__option">
-          <BiMessageRoundedDetail className ='contact__option-icon'/>
-          <h4>Mensaje</h4>
-          <h5>Pablo Fernandez</h5>
-          <a href='https://m.me' target="_blank">Envia un mensaje</a>
-        </article>
-
-        <article className="contact__option">
           <AiOutlineWhatsApp className ='contact__option-icon'/>
           <h4>WhatsApp</h4>
           <h5>+34 650645881</h5>
@@ -54,7 +46,7 @@ const Contact = () => {
         <input type="text" name='name' placeholder='Tu nombre' required/>
         <input type="email" name= 'email' placeholder ='Tu Email' required/>
         <textarea name='message' rows ="7" placeholder="Mensaje" required></textarea>
-        <button type='submit' className='btn btn-primary'>Enviar mensaje</button>
+        <button type='submit' className='btn btn-primary'><b>Enviar mensaje</b></button>
       </form>
 
       </div>
